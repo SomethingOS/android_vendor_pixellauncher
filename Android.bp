@@ -1,11 +1,11 @@
 android_app_import {
-    name: "Lawnchair",
-    apk: "priv-app/Lawnchair/Lawnchair.apk",
+    name: "NexusLauncherPrebuilt",
+    apk: "priv-app/NexusLauncherPrebuilt/NexusLauncherPrebuilt.apk",
     presigned: true,
     dex_preopt: {
         enabled: false,
     },
     privileged: true,
     system_ext_specific: true,
-    overrides: ["Home", "Launcher2", "Launcher3", "Launcher3QuickStep", "ParanoidQuickStep", "PixelLauncher", "TrebuchetQuickStep"],
+    overrides: ["Lawnchair", "Home", "Launcher2", "Launcher3", "Launcher3QuickStep", "ParanoidQuickStep", "PixelLauncher", "TrebuchetQuickStep"],
 }
